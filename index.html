@@ -28,21 +28,27 @@
 
     <p>&nbsp;</p>
     <a name="sec1_korean"><h2>1. Modified Tacotron2 for Korean</h2></a>
-    <p>A single-speaker model trained on audiobook recordings. Model receives both characters and phonemes as input. And then model learns both encoders respectively and concatenate their outputs. The base model does not use phoneme inputs, only character inputs.</p>
+    <p>A single-speaker model trained on audiobook recordings. Model receives both characters and phonemes as input. And then model learns them respectively and concatenate their outputs. The base model does not use phoneme inputs, only character inputs.</p>
     <table>
         <tbody>
         <tr><td>Base 1</td><td><audio controls=""><source src="demo/char-86.wav"></audio></td></tr>
-        <tr><td>Modified 1</td><td><audio controls=""><source src="demo/concat-86.wav"></audio></td></tr>
+        <tr><td>ENC-CO 1</td><td><audio controls=""><source src="demo/concat-86.wav"></audio></td></tr>
+	<tr><td>DEC-CO 1</td><td><audio controls=""><source src="demo/eval-concat-202000-86.wav"></audio></td></tr>
         <tr><td>Base 2</td><td><audio controls=""><source src="demo/char-183.wav"></audio></td></tr>
-        <tr><td>Modified 2</td><td><audio controls=""><source src="demo/concat-183.wav"></audio></td></tr>
+        <tr><td>ENC-CO 2</td><td><audio controls=""><source src="demo/concat-183.wav"></audio></td></tr>
+	<tr><td>DEC-CO 2</td><td><audio controls=""><source src="demo/eval-concat-202000-183.wav"></audio></td></tr>
         <tr><td>Base 3</td><td><audio controls=""><source src="demo/char-308.wav"></audio></td></tr>
-        <tr><td>Modified 3</td><td><audio controls=""><source src="demo/concat-308.wav"></audio></td></tr>
+        <tr><td>ENC-CO 3</td><td><audio controls=""><source src="demo/concat-308.wav"></audio></td></tr>
+	<tr><td>DEC-CO 3</td><td><audio controls=""><source src="demo/eval-concat-202000-308.wav"></audio></td></tr>
         <tr><td>Base 4</td><td><audio controls=""><source src="demo/char-355.wav"></audio></td></tr>
-        <tr><td>Modified 4</td><td><audio controls=""><source src="demo/concat-355.wav"></audio></td></tr>
+        <tr><td>ENC-CO 4</td><td><audio controls=""><source src="demo/concat-355.wav"></audio></td></tr>
+	<tr><td>DEC-CO 4</td><td><audio controls=""><source src="demo/eval-concat-202000-355.wav"></audio></td></tr>
         <tr><td>Base 5</td><td><audio controls=""><source src="demo/char-3501.wav"></audio></td></tr>
-        <tr><td>Modified 5</td><td><audio controls=""><source src="demo/concat-3501.wav"></audio></td></tr>
+        <tr><td>ENC-CO 5</td><td><audio controls=""><source src="demo/concat-3501.wav"></audio></td></tr>
+	<tr><td>DEC-CO 5</td><td><audio controls=""><source src="demo/eval-concat-202000-3501.wav"></audio></td></tr>
         <tr><td>Base 6</td><td><audio controls=""><source src="demo/char-3560.wav"></audio></td></tr>
-        <tr><td>Modified 6</td><td><audio controls=""><source src="demo/concat-3560.wav"></audio></td></tr>
+        <tr><td>ENC-CO 6</td><td><audio controls=""><source src="demo/concat-3560.wav"></audio></td></tr>
+	<tr><td>DEC-CO 6</td><td><audio controls=""><source src="demo/eval-concat-202000-3560.wav"></audio></td></tr>
     </tbody></table>
   
     <p>&nbsp;</p>
